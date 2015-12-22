@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Anilinkz Anime Updater",
+	"version": "1.0",
+	"description": "Alerts when anime update.",
+	
+	"browser_action": {
+		"default_icon": "images/ALicon.png",
+		"default_popup":"popup.html"
+	},
+	
+	"background" : {
+		"page": "background.html"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": [
+				"http://anilinkz.tv/series/*"				
+			],
+			"js": ["js/jquery-1.11.3.min.js", "js/add_series_content.js"],
+			"css": ["css/add_series.css"]
+		},
+		{
+			"matches": [
+				"http://anilinkz.tv/*-episode-*"
+			],
+			"js": ["js/jquery-1.11.3.min.js", "js/update_ep_content.js"]
+		}
+	],
+
+	"permissions": ["storage", "tabs", "http://anilinkz.tv/"],
+	"web_accessible_resources": ["js/jquery-1.11.3.min.js", "images/BA_icon.png"]
+}

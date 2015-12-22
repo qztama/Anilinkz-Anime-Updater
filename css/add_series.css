@@ -1,0 +1,6 @@
+#AL_add_but {
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
+	background-image: url('chrome-extension://hflhlbkfednfoamlgicicdjibpbgilce/images/BA_icon.png');
+}

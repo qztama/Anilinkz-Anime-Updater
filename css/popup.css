@@ -1,0 +1,62 @@
+.img-circle {
+    width:100px;
+	height:100px;
+}
+
+.titleLine {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+
+.epLine{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 26px;
+}
+
+.subLine{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 38px;
+}
+
+.curEp{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 50px;		
+}
+
+.entryUpToDate{
+	position: relative;
+	margin-left: 0px;
+	margin-top: 5px;
+	background: #8AC007;
+	border-radius: 25px;
+    border: 2px solid #8AC007;
+	width : 400px;
+    height: 105px;
+}
+
+.entryNotUpToDate{
+	position: relative;
+	margin-left: 0px;
+	margin-top: 5px;
+	background: #33CCCC;
+	border-radius: 25px;
+    border: 2px solid #33CCCC;
+	width : 400px;
+    height: 105px;
+}
+
+.watch_now {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 70px;
+}
+
+.delete_but {
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 70px;
+}
