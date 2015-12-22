@@ -2,7 +2,8 @@
 var title_c = window.location.href.split('http://anilinkz.tv/series/')[1];
 var added = false;
 
-var style_str = "background-image: url('chrome-extension://hflhlbkfednfoamlgicicdjibpbgilce/images/BA_icon.png');border-radius: 50%;"
+var but_url = chrome.extension.getURL('images/BA_icon.png');
+var style_str = "background-image: url('"+ but_url + "');border-radius: 50%;"
 
 var span = $('<span style="margin-left: 10px;">');
 var add_but = $('<button/>', 
