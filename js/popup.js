@@ -1,4 +1,4 @@
-var web_link = 'http://anilinkz.tv/';
+var web_link = 'http://anilinkz.io/';
 var animeArr = [];
 var callback_var = 1;
 var callback_var2 = 1;
@@ -11,7 +11,7 @@ function display(response){
   trendingList.each(function(){
     var oldEpRef = $(this).find('.ep')[0];
     var newEpRef = document.createElement('a');
-	  newEpRef.href = 'http://anilinkz.tv/' 
+	  newEpRef.href = 'http://anilinkz.io/' 
 	    + oldEpRef.href.split("chrome-extension://hflhlbkfednfoamlgicicdjibpbgilce/")[1];
 	  newEpRef.innerHTML = oldEpRef.title + '\n';
 	  //console.log(newEpRef);

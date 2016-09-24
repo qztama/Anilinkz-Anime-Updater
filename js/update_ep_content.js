@@ -1,6 +1,6 @@
 url_arr = window.location.href.split('?')[0].split('-episode-');
 //url_arr = url_arr[0].split('-episode-');
-anime_title = url_arr[0].split('http://anilinkz.tv/')[1];
+anime_title = url_arr[0].split('http://anilinkz.io/')[1];
 current_ep = url_arr[1];
 
 chrome.extension.sendRequest({'action' : 'update_cur_ep', 'anime_title' : anime_title, 'my_ep' : current_ep});

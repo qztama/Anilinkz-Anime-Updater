@@ -17,19 +17,19 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"http://anilinkz.tv/series/*"				
+				"http://anilinkz.io/series/*"				
 			],
 			"js": ["js/jquery-1.11.3.min.js", "js/add_series_content.js"],
 			"css": ["css/add_series.css"]
 		},
 		{
 			"matches": [
-				"http://anilinkz.tv/*-episode-*"
+				"http://anilinkz.io/*-episode-*"
 			],
 			"js": ["js/jquery-1.11.3.min.js", "js/update_ep_content.js"]
 		}
 	],
 
-	"permissions": ["storage", "tabs", "http://anilinkz.tv/"],
+	"permissions": ["storage", "tabs", "http://anilinkz.io/"],
 	"web_accessible_resources": ["js/jquery-1.11.3.min.js", "images/BA_icon.png"]
 }

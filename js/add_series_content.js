@@ -1,5 +1,5 @@
 //grab the name of the series and convert it to text for url
-var title_c = window.location.href.split('http://anilinkz.tv/series/')[1];
+var title_c = window.location.href.split('http://anilinkz.io/series/')[1];
 var added = false;
 
 var but_url = chrome.extension.getURL('images/BA_icon.png');

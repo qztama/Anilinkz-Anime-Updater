@@ -34,7 +34,7 @@ function check_update() {
 	for(i = 1; i < anime_list.length; i++)
 	{
 	  setTimeout(function(anime_name){
-	  	var cur_url = 'http://anilinkz.tv/series/' + anime_name;
+	  	var cur_url = 'http://anilinkz.io/series/' + anime_name;
 
 	  	fetch_feed(cur_url, function(data) {
 
